@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>State Executive</h1>
+  <p>The State Executive in India comprises the Governor, the Chief Minister, and the State Council of Ministers. These bodies are responsible for the executive administration of individual states and derive their powers from Part VI of the Constitution (Articles 153 to 167).</p>
+
+  <h2>1. Governor</h2>
+  <ul>
+    <li><strong>Article 153:</strong> There shall be a Governor for each State.</li>
+    <li><strong>Article 154:</strong> Executive power of the state vested in the Governor.</li>
+    <li><strong>Article 155:</strong> Governor is appointed by the President.</li>
+    <li><strong>Article 161:</strong> Governor's power to grant pardons, etc.</li>
+    <li><strong>Article 188:</strong> Oath to preserve, protect, and defend the Constitution.</li>
+  </ul>
+
+  <h3>Governor's Powers:</h3>
+  <ul>
+    <li>Appoints the Chief Minister and other Ministers.</li>
+    <li>Can summon, prorogue, and dissolve the State Legislature.</li>
+    <li>Gives assent to bills, may reserve certain bills for President's consideration.</li>
+    <li>Acts as a nominal head; real powers lie with the elected government.</li>
+  </ul>
+
+  <h2>2. Chief Minister</h2>
+  <ul>
+    <li><strong>Article 164:</strong> Chief Minister is appointed by the Governor.</li>
+    <li><strong>Article 167:</strong> CM communicates decisions of the Council of Ministers to the Governor.</li>
+    <li><strong>Third Schedule:</strong> Oath of office and secrecy.</li>
+  </ul>
+
+  <h3>Chief Minister's Powers:</h3>
+  <ul>
+    <li>Heads the Council of Ministers at the state level.</li>
+    <li>Advises the Governor on appointments and governance.</li>
+    <li>Leads the legislative agenda of the government in the Assembly.</li>
+    <li>Acts as a key decision-maker for state policies and administration.</li>
+  </ul>
+
+  <h2>3. State Council of Ministers</h2>
+  <ul>
+    <li><strong>Article 163:</strong> Council to aid and advise the Governor.</li>
+    <li><strong>Article 164:</strong> Ministers hold office at the pleasure of the Governor.</li>
+    <li><strong>Article 164(2):</strong> Council of Ministers collectively responsible to the Legislative Assembly.</li>
+    <li><strong>Third Schedule:</strong> Oath of office and secrecy for Ministers.</li>
+  </ul>
+
+  <h3>Powers of the Council:</h3>
+  <ul>
+    <li>Formulates and implements state policies and laws.</li>
+    <li>Prepares the state budget and allocates funds.</li>
+    <li>Each minister handles a specific department such as education, health, etc.</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    The State Executive mirrors the structure of the Union Executive, with the Governor as the constitutional head and the Chief Minister along with the Council of Ministers holding real administrative power. They are responsible for running the state government efficiently and constitutionally.
+  </p>
+
+</body>
+</html>

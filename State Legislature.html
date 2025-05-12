@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>State Legislature: Legislative Assembly and Legislative Council</h1>
+  <p>
+    The *State Legislature* in India may be *unicameral* (only Legislative Assembly) or *bicameral* (Legislative Assembly and Legislative Council). The provisions related to state legislatures are detailed in *Part VI (Articles 168–212)* of the Indian Constitution.
+  </p>
+
+  <h2>Article 168: Composition of State Legislatures</h2>
+  <p>
+    Each state shall have a legislature consisting of the Governor and either one house (Legislative Assembly) or two houses (Legislative Assembly and Legislative Council).
+  </p>
+
+  <h2>1. Legislative Assembly (Vidhan Sabha)</h2>
+  <ul>
+    <li><strong>Article 170:</strong> Composition - Members are directly elected by the people.</li>
+    <li><strong>Strength:</strong> Varies by state; minimum 60 and maximum 500 members.</li>
+    <li><strong>Term:</strong> 5 years unless dissolved earlier.</li>
+    <li><strong>Presiding Officer:</strong> Speaker and Deputy Speaker.</li>
+  </ul>
+
+  <h3>Powers and Functions</h3>
+  <ul>
+    <li>Has full legislative powers for state subjects (State List and Concurrent List).</li>
+    <li>Can introduce and pass money bills (Article 198).</li>
+    <li>Controls the state executive through no-confidence motions, discussions, and questions.</li>
+    <li>Approves the state budget and financial bills.</li>
+    <li>Participates in electing the President of India.</li>
+  </ul>
+
+  <h2>2. Legislative Council (Vidhan Parishad)</h2>
+  <ul>
+    <li><strong>Article 171:</strong> Composition - Members are partly elected and partly nominated.</li>
+    <li><strong>Tenure:</strong> Permanent body; one-third of its members retire every 2 years.</li>
+    <li><strong>Maximum Strength:</strong> Cannot exceed one-third of the strength of the Legislative Assembly, and in no case less than 40 members.</li>
+    <li><strong>Presiding Officer:</strong> Chairman and Deputy Chairman.</li>
+  </ul>
+
+  <h3>Powers and Functions</h3>
+  <ul>
+    <li>Acts as a revising chamber; can delay ordinary bills but not reject them.</li>
+    <li>Cannot initiate or amend money bills (Article 198).</li>
+    <li>Can discuss matters of public interest and influence legislation through recommendations.</li>
+  </ul>
+
+  <h2>Comparison: Legislative Assembly vs Legislative Council</h2>
+  <ul>
+    <li><strong>Legislative Assembly</strong> holds more powers, especially financial and executive control.</li>
+    <li><strong>Legislative Council</strong> has advisory and revising powers but limited authority.</li>
+  </ul>
+
+  <h2>Creation and Abolition</h2>
+  <p><strong>Article 169:</strong> Parliament may create or abolish Legislative Councils in states by law if the Legislative Assembly of the state passes a resolution by a special majority.</p>
+
+  <h2>Conclusion</h2>
+  <p>
+    The structure of state legislatures reflects federal principles and gives states the flexibility to adopt a unicameral or bicameral system. The Legislative Assembly plays a dominant role in state governance, while the Legislative Council supports with deliberation and expertise.
+  </p>
+
+</body>
+</html>

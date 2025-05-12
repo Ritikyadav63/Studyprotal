@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+     <a href="index.html">Home</a>
+    <a href="liberty.html">Liberty</a>
+    <a href="equality.html">Equality</a>
+    <a href="rights.html">Rights</a>
+    <a href="justice.html">Justice</a>
+    <a href="democracy.html">Democracy</a>
+    <a href="power_authority.html">Power & Authority</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Liberty – Meaning, Types, Theories, and Importance</h1>
+
+  <h2>Meaning of Liberty</h2>
+  <p>
+    Liberty refers to the condition in which individuals have the freedom to think, express, and act as they choose,
+    without undue restraint or interference from the state or others. It is the foundation of a free and democratic society.
+  </p>
+
+  <h2>Definitions by Thinkers</h2>
+  <ul>
+    <li><strong>J.S. Mill:</strong> "The worth of a state in the long run is the worth of the individuals composing it."</li>
+    <li><strong>T.H. Green:</strong> Liberty is not the absence of restraint but the presence of opportunities for self-development.</li>
+    <li><strong>MacIver:</strong> Liberty means the absence of restraints.</li>
+    <li><strong>Harold Laski:</strong> Liberty is the product of rights; it is rights which make liberty possible.</li>
+  </ul>
+
+  <h2>Types of Liberty</h2>
+  <ul>
+    <li><strong>Natural Liberty:</strong> Unlimited freedom in the pre-social condition or state of nature.</li>
+    <li><strong>Civil Liberty:</strong> Liberty guaranteed by the laws of the state to all citizens equally.</li>
+    <li><strong>Political Liberty:</strong> Right to vote, form political parties, contest elections, etc.</li>
+    <li><strong>Economic Liberty:</strong> Freedom to earn a living, own property, and choose one’s profession.</li>
+    <li><strong>Personal Liberty:</strong> Protection of individual freedoms from arbitrary action by the state.</li>
+    <li><strong>National Liberty:</strong> Freedom of a nation from foreign domination or imperialism.</li>
+  </ul>
+
+  <h2>Positive and Negative Liberty</h2>
+  <ul>
+    <li><strong>Negative Liberty:</strong> Freedom from external restraints. It emphasizes non-interference. (e.g., freedom from censorship)</li>
+    <li><strong>Positive Liberty:</strong> Freedom to act in pursuit of one’s own potential. It focuses on self-mastery and empowerment. (e.g., right to education)</li>
+  </ul>
+
+  <h2>Liberty vs. License</h2>
+  <p>
+    Liberty is not the same as license. Liberty is rational and responsible use of freedom within the boundaries of law and morality.
+    License refers to misuse of freedom without regard for others’ rights, leading to disorder.
+  </p>
+
+  <h2>Liberty and Law</h2>
+  <p>
+    Law and liberty are complementary. Law defines the limits of liberty and protects individuals from the misuse of power.
+    Without law, liberty can turn into anarchy. Without liberty, law becomes oppressive.
+  </p>
+
+  <h2>Safeguards of Liberty</h2>
+  <ul>
+    <li>Democratic form of government</li>
+    <li>Constitutional guarantees of fundamental rights</li>
+    <li>Rule of law and independent judiciary</li>
+    <li>Free press and public opinion</li>
+    <li>Separation of powers among legislative, executive, and judiciary</li>
+    <li>Educated and vigilant citizens</li>
+  </ul>
+
+  <h2>Importance of Liberty in Democracy</h2>
+  <ul>
+    <li>Enables individual growth and fulfillment</li>
+    <li>Encourages participation in political and social life</li>
+    <li>Fosters tolerance, creativity, and dialogue</li>
+    <li>Protects against tyranny and authoritarian rule</li>
+    <li>Essential for a just and progressive society</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    Liberty is not merely a political principle; it is a way of life. In a truly democratic society, liberty is balanced with equality,
+    justice, and responsibility. Protecting liberty is essential for preserving the dignity and potential of every individual.
+  </p>
+  <a href="index.html">Back To Home Page</a>
+</body>
+</html>

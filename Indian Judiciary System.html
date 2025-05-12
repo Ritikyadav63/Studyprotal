@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+
+<hr>
+
+  <h1>Judiciary in India: Supreme Court, High Courts, and District Courts</h1>
+  <p>
+    The Indian Judiciary is an independent and integrated system consisting of the Supreme Court at the top, followed by **High Courts in the states and District/Subordinate Courts at the local level. It is governed by Part V (Articles 124–147) and Part VI (Articles 214–237) of the Constitution.
+  </p>
+
+  <h2>1. Supreme Court of India</h2>
+  <ul>
+    <li><strong>Articles:</strong> 124–147</li>
+    <li><strong>Composition:</strong> Chief Justice of India (CJI) and up to 33 other judges.</li>
+    <li><strong>Tenure:</strong> Judges retire at 65 years.</li>
+    <li><strong>Headquarters:</strong> New Delhi</li>
+  </ul>
+
+  <h3>Jurisdiction and Powers</h3>
+  <ul>
+    <li><strong>Original Jurisdiction (Article 131):</strong> Disputes between Union and States.</li>
+    <li><strong>Writ Jurisdiction (Article 32):</strong> Protection of Fundamental Rights.</li>
+    <li><strong>Appellate Jurisdiction (Articles 132–136):</strong> Civil, criminal, and constitutional appeals.</li>
+    <li><strong>Advisory Jurisdiction (Article 143):</strong> President may seek advice.</li>
+    <li><strong>Judicial Review:</strong> Can declare laws unconstitutional.</li>
+    <li><strong>Guardian of Constitution and Fundamental Rights.</strong></li>
+  </ul>
+
+  <h2>2. High Courts</h2>
+  <ul>
+    <li><strong>Articles:</strong> 214–231</li>
+    <li><strong>One High Court per state or for multiple states/UTs.</strong></li>
+    <li><strong>Composition:</strong> Chief Justice and other judges appointed by the President.</li>
+    <li><strong>Retirement Age:</strong> 62 years</li>
+  </ul>
+
+  <h3>Powers and Functions</h3>
+  <ul>
+    <li><strong>Original Jurisdiction:</strong> On matters related to state laws.</li>
+    <li><strong>Writ Jurisdiction (Article 226):</strong> Can issue writs for Fundamental and Legal Rights.</li>
+    <li><strong>Appellate Jurisdiction:</strong> Hears appeals from lower courts.</li>
+    <li><strong>Supervisory Jurisdiction:</strong> Supervises district courts under its territory.</li>
+  </ul>
+
+  <h2>3. District and Subordinate Courts</h2>
+  <ul>
+    <li><strong>Articles:</strong> 233–237</li>
+    <li><strong>Established by:</strong> State Governments</li>
+    <li><strong>Presided by:</strong> District Judge (in civil matters), Sessions Judge (in criminal matters)</li>
+    <li><strong>Other Courts:</strong> Magistrate courts, family courts, labour courts, etc.</li>
+  </ul>
+
+  <h3>Powers and Functions</h3>
+  <ul>
+    <li>Handles civil and criminal cases at the district level.</li>
+    <li>Appeals can be made to the High Court.</li>
+    <li>Important for local justice delivery and public access to courts.</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    The Judiciary ensures justice, interprets laws, protects rights, and upholds the Constitution. Its independence is a cornerstone of India's democratic system.
+  </p>
+
+</body>
+</html>

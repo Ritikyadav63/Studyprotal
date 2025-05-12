@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Citizenship in the Indian Constitution</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    Citizenship is the legal status of being a member of a nation, with rights and duties guaranteed by its Constitution. In India, provisions for citizenship are found in Part II of the Constitution (Articles 5 to 11).
+  </p>
+
+  <h2>Constitutional Provisions (Articles 5 to 11)</h2>
+
+  <h3>Article 5 – Citizenship at the commencement of the Constitution</h3>
+  <p>
+    Every person domiciled in India on January 26, 1950, and who was born in India, or whose parents were born in India, or who had been a resident for at least 5 years before that date, was considered a citizen.
+  </p>
+
+  <h3>Article 6 – Rights of Citizenship of Certain Persons Who Have Migrated from Pakistan</h3>
+  <p>
+    Persons who migrated from Pakistan before July 19, 1948, and had been residents in India were granted citizenship if they had resided in India since migration. Those who migrated after that date needed registration.
+  </p>
+
+  <h3>Article 7 – Rights of Migrants to Pakistan</h3>
+  <p>
+    Those who migrated to Pakistan but later returned to India with proper permits could be citizens under certain conditions.
+  </p>
+
+  <h3>Article 8 – Rights of Citizenship of Certain Persons of Indian Origin Residing Outside India</h3>
+  <p>
+    Persons of Indian origin residing abroad (e.g., in the UK, South Africa) could be considered Indian citizens if they were registered at an Indian consulate.
+  </p>
+
+  <h3>Article 9 – Persons Voluntarily Acquiring Citizenship of a Foreign State</h3>
+  <p>
+    If any person voluntarily acquired the citizenship of another country, they would no longer be considered an Indian citizen.
+  </p>
+
+  <h3>Article 10 – Continuance of Rights of Citizenship</h3>
+  <p>
+    Every person who is a citizen of India shall continue to be such, subject to any laws made by Parliament.
+  </p>
+
+  <h3>Article 11 – Parliament to Regulate the Right of Citizenship by Law</h3>
+  <p>
+    Parliament has the power to make laws regarding the acquisition and termination of citizenship.
+  </p>
+
+  <h2>Citizenship Act, 1955</h2>
+  <p>
+    The Citizenship Act of 1955 was passed to provide details beyond the Constitution. It outlines five ways of acquiring Indian citizenship:
+  </p>
+  <ul>
+    <li><strong>By Birth</strong> – Born in India with at least one Indian parent (with conditions).</li>
+    <li><strong>By Descent</strong> – Born outside India to Indian parents.</li>
+    <li><strong>By Registration</strong> – For specific categories like PIOs or spouses of Indian citizens.</li>
+    <li><strong>By Naturalization</strong> – After residing in India for a specific period.</li>
+    <li><strong>By Incorporation of Territory</strong> – If new territory becomes part of India (e.g., Goa, Sikkim).</li>
+  </ul>
+
+  <h2>Termination of Citizenship</h2>
+  <p>Citizenship can be lost in three ways:</p>
+  <ul>
+    <li><strong>Renunciation</strong> – Voluntarily giving up Indian citizenship.</li>
+    <li><strong>Termination</strong> – Automatically lost when acquiring foreign citizenship.</li>
+    <li><strong>Deprivation</strong> – Government can remove citizenship under specific conditions (e.g., fraud, disloyalty).</li>
+  </ul>
+
+  <h2>Single Citizenship</h2>
+  <p>
+    India follows the principle of *single citizenship*, i.e., every Indian citizen is a citizen of India only, irrespective of the state or union territory they belong to. This promotes national unity.
+  </p>
+
+  <h2>Conclusion</h2>
+  <p>
+    Citizenship defines the relationship between the individual and the state. In India, it ensures equality, rights, and responsibilities, while maintaining national integrity and unity.
+  </p>
+
+</body>
+</html>

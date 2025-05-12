@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Fundamental Rights, Directive Principles of State Policy & Fundamental Duties</h1>
+
+  <h2>1. Fundamental Rights (Part III, Articles 12–35)</h2>
+  <p>
+    Fundamental Rights are essential for the development of individuals and democracy. They are enforceable by the courts and protect citizens from arbitrary actions of the state.
+  </p>
+
+  <h3>Types of Fundamental Rights:</h3>
+  <ol>
+    <li><strong>Right to Equality (Articles 14–18):</strong> Equality before the law, prohibition of discrimination, and abolition of untouchability and titles.</li>
+    <li><strong>Right to Freedom (Articles 19–22):</strong> Freedom of speech, assembly, association, movement, residence, and profession; protection in respect of conviction and arrest.</li>
+    <li><strong>Right against Exploitation (Articles 23–24):</strong> Prohibition of human trafficking and child labor.</li>
+    <li><strong>Right to Freedom of Religion (Articles 25–28):</strong> Freedom of conscience and practice, profession, and propagation of religion.</li>
+    <li><strong>Cultural and Educational Rights (Articles 29–30):</strong> Protection of interests of minorities and right to establish and administer educational institutions.</li>
+    <li><strong>Right to Constitutional Remedies (Article 32):</strong> Right to approach the Supreme Court for enforcement of Fundamental Rights (called the "heart and soul" of the Constitution by Dr. Ambedkar).</li>
+  </ol>
+
+  <h2>2. Directive Principles of State Policy (Part IV, Articles 36–51)</h2>
+  <p>
+    DPSPs are guidelines for the state to establish a just society. They are non-justiciable but fundamental in governance.
+  </p>
+
+  <h3>Key Directives:</h3>
+  <ul>
+    <li>Promote welfare of the people (Art. 38).</li>
+    <li>Ensure equal pay for equal work (Art. 39).</li>
+    <li>Provide free legal aid (Art. 39A).</li>
+    <li>Promote education and health (Art. 41–47).</li>
+    <li>Improve environment and protect forests (Art. 48A).</li>
+    <li>Organize village panchayats (Art. 40).</li>
+    <li>Promote international peace and security (Art. 51).</li>
+  </ul>
+
+  <p><strong>Note:</strong> Though not enforceable, many DPSPs have been implemented through laws and policies, e.g., Right to Education Act.</p>
+
+  <h2>3. Fundamental Duties (Part IVA, Article 51A)</h2>
+  <p>
+    Fundamental Duties were added by the 42nd Amendment Act, 1976, based on the Soviet model. They act as moral obligations for citizens to uphold national values.
+  </p>
+
+  <h3>List of Fundamental Duties:</h3>
+  <ol>
+    <li>Abide by the Constitution and respect its ideals and institutions.</li>
+    <li>Cherish noble ideals of freedom struggle.</li>
+    <li>Uphold sovereignty, unity, and integrity of India.</li>
+    <li>Defend the country and render national service.</li>
+    <li>Promote harmony and common brotherhood.</li>
+    <li>Value and preserve the rich heritage of our culture.</li>
+    <li>Protect and improve the natural environment.</li>
+    <li>Develop scientific temper, humanism, and spirit of inquiry.</li>
+    <li>Safeguard public property and abjure violence.</li>
+    <li>Strive for excellence in all spheres of activity.</li>
+    <li>(Added by 86th Amendment) Ensure educational opportunities for children between 6 and 14 years.</li>
+  </ol>
+
+  <h2>Conclusion</h2>
+  <p>
+    Fundamental Rights, DPSPs, and Fundamental Duties together form the core of the Indian constitutional philosophy—balancing individual freedom, state responsibility, and citizen duties for the welfare of society.
+  </p>
+
+</body>
+</html>

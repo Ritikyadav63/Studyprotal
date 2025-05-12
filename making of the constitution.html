@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Making of the Indian Constitution</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    The Constitution of India is the supreme law of the land. Its making was a historic process that involved extensive debates, multiple viewpoints, and democratic deliberation in the Constituent Assembly from 1946 to 1950.
+  </p>
+
+  <h2>Historical Background</h2>
+  <ul>
+    <li><strong>Government of India Acts (1909, 1919, 1935):</strong> Provided initial frameworks for governance and introduced limited reforms.</li>
+    <li><strong>Indian National Movement:</strong> Demands for self-rule and full independence led to calls for a Constituent Assembly.</li>
+    <li><strong>Cabinet Mission Plan (1946):</strong> Proposed the formation of the Constituent Assembly.</li>
+  </ul>
+
+  <h2>Formation of the Constituent Assembly</h2>
+  <ul>
+    <li>Constituted in 1946 under the Cabinet Mission Plan.</li>
+    <li>Total members: 389 (later 299 after partition).</li>
+    <li>Members were indirectly elected by provincial legislatures.</li>
+    <li>Presided over by Dr. Rajendra Prasad (President of Assembly).</li>
+  </ul>
+
+  <h2>Important Personalities</h2>
+  <ul>
+    <li><strong>Dr. B.R. Ambedkar:</strong> Chairman of the Drafting Committee, known as the Architect of the Constitution.</li>
+    <li><strong>Jawaharlal Nehru:</strong> Presented the “Objectives Resolution”.</li>
+    <li><strong>Sardar Patel, Maulana Azad, K.M. Munshi, Alladi Krishnaswami Ayyar:</strong> Prominent members and key contributors.</li>
+  </ul>
+
+  <h2>Objectives Resolution (1946)</h2>
+  <p>
+    Introduced by Nehru, it laid the philosophical foundation of the Constitution:
+  </p>
+  <ul>
+    <li>India to be an independent sovereign republic.</li>
+    <li>Justice, liberty, equality for all citizens.</li>
+    <li>Protection of minorities and backward sections.</li>
+  </ul>
+
+  <h2>Key Committees of the Constituent Assembly</h2>
+  <ul>
+    <li><strong>Drafting Committee:</strong> Headed by Ambedkar – prepared the final draft.</li>
+    <li><strong>Union Powers Committee:</strong> Chaired by Nehru – decided the division of powers.</li>
+    <li><strong>Advisory Committee on Fundamental Rights and Minorities:</strong> Chaired by Sardar Patel.</li>
+    <li>Multiple other specialized committees on language, provinces, judiciary, etc.</li>
+  </ul>
+
+  <h2>Debates and Deliberations</h2>
+  <ul>
+    <li>The Assembly met for 11 sessions over 2 years, 11 months, and 18 days.</li>
+    <li>Over 7,600 amendments were considered; around 2,500 were accepted.</li>
+    <li>Discussions were held in a democratic, inclusive, and transparent manner.</li>
+  </ul>
+
+  <h2>Adoption of the Constitution</h2>
+  <ul>
+    <li>Adopted on <strong>26 November 1949</strong>.</li>
+    <li>Came into effect on <strong>26 January 1950</strong> (celebrated as Republic Day).</li>
+    <li>Declared India a Sovereign, Socialist, Secular, Democratic Republic.</li>
+  </ul>
+
+  <h2>Salient Features of the Indian Constitution</h2>
+  <ul>
+    <li>Longest written constitution in the world.</li>
+    <li>Blend of rigidity and flexibility.</li>
+    <li>Federal structure with unitary features.</li>
+    <li>Parliamentary system of government.</li>
+    <li>Fundamental Rights and Directive Principles.</li>
+    <li>Secular and inclusive framework.</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    The making of the Indian Constitution was a monumental task achieved through collective effort and vision. It reflects the aspirations of a newly independent nation and continues to guide India’s democratic journey.
+  </p>
+
+</body>
+</html>

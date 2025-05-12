@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+     <a href="index.html">Home</a>
+    <a href="liberty.html">Liberty</a>
+    <a href="equality.html">Equality</a>
+    <a href="rights.html">Rights</a>
+    <a href="justice.html">Justice</a>
+    <a href="democracy.html">Democracy</a>
+    <a href="power_authority.html">Power & Authority</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Rights – Meaning, Types, Theories, and Importance</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    Rights are legal, social, or ethical principles of freedom or entitlement. They are essential for individuals to live 
+    with dignity, participate in society, and protect their liberty and equality. Rights form the foundation of democracy and rule of law.
+  </p>
+
+  <h2>Definitions by Thinkers</h2>
+  <ul>
+    <li><strong>Laski:</strong> "Rights are those conditions of social life without which no man can seek to be himself at his best."</li>
+    <li><strong>Hobhouse:</strong> "Rights are what we consider necessary for the common good of society."</li>
+    <li><strong>Green:</strong> Rights are powers necessary for the fulfillment of man’s moral being.</li>
+  </ul>
+
+  <h2>Types of Rights</h2>
+  <ul>
+    <li><strong>Natural Rights:</strong> Inherent to all humans by birth, such as life, liberty, and property.</li>
+    <li><strong>Moral Rights:</strong> Based on conscience and ethics, not always enforceable by law.</li>
+    <li><strong>Legal Rights:</strong> Recognized and enforced by the law of the state.</li>
+    <li><strong>Civil Rights:</strong> Right to freedom of speech, religion, assembly, etc.</li>
+    <li><strong>Political Rights:</strong> Right to vote, contest elections, form parties.</li>
+    <li><strong>Economic Rights:</strong> Right to work, fair wages, own property, social security.</li>
+  </ul>
+
+  <h2>Theories of Rights</h2>
+  <ul>
+    <li><strong>Natural Theory:</strong> Rights are universal and inherent, not created by the state.</li>
+    <li><strong>Legal Theory:</strong> Rights are created and protected by the laws of the state.</li>
+    <li><strong>Historical Theory:</strong> Rights evolve from customs and historical practices.</li>
+    <li><strong>Social Welfare Theory:</strong> Rights promote social welfare and collective good.</li>
+  </ul>
+
+  <h2>Rights and Duties</h2>
+  <p>
+    Rights and duties are two sides of the same coin. Every right implies a corresponding duty. For example, the right to freedom 
+    of speech carries the duty not to spread hate. Citizens must exercise their rights responsibly and respect the rights of others.
+  </p>
+
+  <h2>Fundamental Rights in the Indian Constitution</h2>
+  <ul>
+    <li><strong>Article 14–18:</strong> Right to Equality</li>
+    <li><strong>Article 19–22:</strong> Right to Freedom</li>
+    <li><strong>Article 23–24:</strong> Right against Exploitation</li>
+    <li><strong>Article 25–28:</strong> Right to Freedom of Religion</li>
+    <li><strong>Article 29–30:</strong> Cultural and Educational Rights</li>
+    <li><strong>Article 32:</strong> Right to Constitutional Remedies</li>
+  </ul>
+
+  <h2>Importance of Rights</h2>
+  <ul>
+    <li>Ensure individual freedom and dignity</li>
+    <li>Promote equality and social justice</li>
+    <li>Strengthen democracy by empowering citizens</li>
+    <li>Protect minorities and vulnerable groups</li>
+    <li>Prevent abuse of power by authorities</li>
+  </ul>
+
+  <h2>Challenges to Rights</h2>
+  <ul>
+    <li>State censorship and misuse of laws</li>
+    <li>Social discrimination and inequality</li>
+    <li>Suppression of dissent and political opposition</li>
+    <li>Economic exploitation and lack of access to justice</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    Rights are essential for a just and humane society. They are not gifts from the state but are necessary for individuals 
+    to develop their full potential. A democratic society must continuously protect and expand rights while ensuring their 
+    responsible use through civic education and legal safeguards.
+  </p>
+
+</body>
+</html>

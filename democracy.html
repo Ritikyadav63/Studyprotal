@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+     <a href="index.html">Home</a>
+    <a href="liberty.html">Liberty</a>
+    <a href="equality.html">Equality</a>
+    <a href="rights.html">Rights</a>
+    <a href="justice.html">Justice</a>
+    <a href="democracy.html">Democracy</a>
+    <a href="power_authority.html">Power & Authority</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Democracy – Concept, Types, Features, and Challenges</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    Democracy is a form of government where power is vested in the hands of the people. It emphasizes participation, equality, 
+    freedom, and accountability. The idea of democracy has evolved over centuries from direct to modern representative systems.
+  </p>
+
+  <h2>Definitions by Thinkers</h2>
+  <ul>
+    <li><strong>Abraham Lincoln:</strong> “Democracy is government of the people, by the people, and for the people.”</li>
+    <li><strong>J.S. Mill:</strong> Democracy promotes individual liberty and political education.</li>
+    <li><strong>Robert Dahl:</strong> Democracy is characterized by polyarchy—pluralism, participation, and competition.</li>
+  </ul>
+
+  <h2>Types of Democracy</h2>
+  <ul>
+    <li><strong>Direct Democracy:</strong> People make decisions directly (e.g., ancient Athens).</li>
+    <li><strong>Representative Democracy:</strong> People elect representatives to make decisions on their behalf.</li>
+    <li><strong>Liberal Democracy:</strong> Based on free and fair elections, rule of law, and protection of rights.</li>
+    <li><strong>Participatory Democracy:</strong> Focuses on broad participation in decision-making beyond elections.</li>
+    <li><strong>Deliberative Democracy:</strong> Emphasizes discussion and reasoning in public decision-making.</li>
+  </ul>
+
+  <h2>Core Principles of Democracy</h2>
+  <ul>
+    <li>Popular Sovereignty</li>
+    <li>Political Equality</li>
+    <li>Rule of Law</li>
+    <li>Majority Rule and Minority Rights</li>
+    <li>Free and Fair Elections</li>
+    <li>Separation of Powers</li>
+    <li>Protection of Fundamental Rights</li>
+    <li>Accountability and Transparency</li>
+  </ul>
+
+  <h2>Democracy in the Indian Context</h2>
+  <p>
+    India is the world's largest democracy, with a parliamentary system and a written constitution. The Constitution ensures democratic governance, 
+    fundamental rights, and free elections.
+  </p>
+  <ul>
+    <li><strong>Preamble:</strong> Declares India as a sovereign, socialist, secular, democratic republic.</li>
+    <li><strong>Articles 324–329:</strong> Provide for an independent Election Commission and electoral process.</li>
+    <li><strong>Fundamental Rights and Directive Principles:</strong> Promote liberty, equality, and justice.</li>
+    <li><strong>Democratic Institutions:</strong> Parliament, State Assemblies, Panchayati Raj Institutions (PRI).</li>
+  </ul>
+
+  <h2>Importance of Democracy</h2>
+  <ul>
+    <li>Ensures participation of people in governance</li>
+    <li>Protects individual rights and freedoms</li>
+    <li>Promotes equality and social justice</li>
+    <li>Holds government accountable to the people</li>
+    <li>Peaceful transfer of power and political stability</li>
+  </ul>
+
+  <h2>Challenges to Democracy</h2>
+  <ul>
+    <li>Corruption and misuse of power</li>
+    <li>Voter apathy and low political awareness</li>
+    <li>Communalism, casteism, and identity politics</li>
+    <li>Fake news and political polarization</li>
+    <li>Undue influence of money and muscle power</li>
+  </ul>
+
+  <h2>Democracy vs. Other Systems</h2>
+  <ul>
+    <li><strong>Democracy vs. Monarchy:</strong> In democracy, rulers are elected; in monarchy, power is inherited.</li>
+    <li><strong>Democracy vs. Dictatorship:</strong> Democracy ensures freedom and participation; dictatorship is authoritarian.</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    Democracy is not merely a system of government but a way of life based on freedom, dignity, and collective decision-making. 
+    For democracy to thrive, it requires an active citizenry, strong institutions, and continuous vigilance against threats to liberty and justice.
+  </p>
+
+</body>
+</html>

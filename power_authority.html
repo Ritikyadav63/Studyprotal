@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+     <a href="index.html">Home</a>
+    <a href="liberty.html">Liberty</a>
+    <a href="equality.html">Equality</a>
+    <a href="rights.html">Rights</a>
+    <a href="justice.html">Justice</a>
+    <a href="democracy.html">Democracy</a>
+    <a href="power_authority.html">Power & Authority</a>
+    </div>
+  </div>
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Power and Authority – Concepts, Types, and Significance</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    Power and authority are essential concepts in political science. Power refers to the ability to influence or control the behavior of others. 
+    Authority is the legitimate use of power, accepted by society as rightful.
+  </p>
+
+  <h2>Definitions by Thinkers</h2>
+  <ul>
+    <li><strong>Max Weber:</strong> "Power is the probability that one actor can impose their will on others, even against resistance."</li>
+    <li><strong>Robert Dahl:</strong> "A has power over B to the extent that A can get B to do something B would not otherwise do."</li>
+    <li><strong>Weber (on authority):</strong> Authority is legitimate power accepted by those subjected to it.</li>
+  </ul>
+
+  <h2>Types of Power</h2>
+  <ul>
+    <li><strong>Coercive Power:</strong> Based on force or threat (e.g., military or police power).</li>
+    <li><strong>Economic Power:</strong> Control over resources, wealth, and production.</li>
+    <li><strong>Political Power:</strong> Control exercised by government institutions and political leaders.</li>
+    <li><strong>Ideological Power:</strong> Influence through ideas, beliefs, and values (e.g., media, religion).</li>
+  </ul>
+
+  <h2>Types of Authority (Weber)</h2>
+  <ul>
+    <li><strong>Traditional Authority:</strong> Based on customs and inherited status (e.g., monarchy).</li>
+    <li><strong>Legal-Rational Authority:</strong> Based on legal rules and formal institutions (e.g., modern governments).</li>
+    <li><strong>Charismatic Authority:</strong> Based on the personal charisma of the leader (e.g., revolutionary figures).</li>
+  </ul>
+
+  <h2>Differences Between Power and Authority</h2>
+  <table border="1" cellpadding="6">
+    <tr>
+      <th>Aspect</th>
+      <th>Power</th>
+      <th>Authority</th>
+    </tr>
+    <tr>
+      <td>Nature</td>
+      <td>Ability to influence behavior</td>
+      <td>Right to command accepted as legitimate</td>
+    </tr>
+    <tr>
+      <td>Legitimacy</td>
+      <td>May or may not be legitimate</td>
+      <td>Always considered legitimate</td>
+    </tr>
+    <tr>
+      <td>Source</td>
+      <td>Force, wealth, influence</td>
+      <td>Law, tradition, charisma</td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td>Often through coercion or manipulation</td>
+      <td>Through accepted legal or moral norms</td>
+    </tr>
+  </table>
+
+  <h2>Theories of Power</h2>
+  <ul>
+    <li><strong>Pluralist Theory:</strong> Power is distributed among various interest groups; no single group dominates.</li>
+    <li><strong>Elite Theory:</strong> Power is concentrated in the hands of a few elites who control key institutions.</li>
+    <li><strong>Marxist Theory:</strong> Power lies in economic control; the ruling class dominates the state and society.</li>
+    <li><strong>Foucault's Theory:</strong> Power is everywhere; it is embedded in discourse, knowledge, and institutions.</li>
+  </ul>
+
+  <h2>Authority in the Indian Political System</h2>
+  <ul>
+    <li><strong>Legal-Rational Authority:</strong> Indian Constitution provides authority to Parliament, executive, and judiciary.</li>
+    <li><strong>Traditional Elements:</strong> Seen in social customs and local power structures like village panchayats.</li>
+    <li><strong>Challenges:</strong> Abuse of authority, authoritarian tendencies, and lack of accountability.</li>
+  </ul>
+
+  <h2>Importance of Power and Authority in Politics</h2>
+  <ul>
+    <li>Maintain order and enforce laws</li>
+    <li>Provide leadership and decision-making</li>
+    <li>Implement policies and govern effectively</li>
+    <li>Ensure obedience and legitimacy in society</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    Power and authority are central to understanding political behavior and governance. While power enables control, 
+    authority grants legitimacy. A healthy political system balances both to uphold democracy, rule of law, and public trust.
+  </p>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+     <a href="index.html">Home</a>
+    <a href="liberty.html">Liberty</a>
+    <a href="equality.html">Equality</a>
+    <a href="rights.html">Rights</a>
+    <a href="justice.html">Justice</a>
+    <a href="democracy.html">Democracy</a>
+    <a href="power_authority.html">Power & Authority</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Equality – Meaning, Types, and Importance</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    Equality is a fundamental principle of democracy and social justice. It refers to the idea that all human beings 
+    are of equal worth and should be treated equally under the law and within society. It aims to eliminate discrimination 
+    and provide equal opportunities for all.
+  </p>
+
+  <h2>Definitions by Thinkers</h2>
+  <ul>
+    <li><strong>Laski:</strong> "Equality means that no man shall be placed in society that he can overreach his neighbor to the extent that his neighbor is not allowed to develop his own personality."</li>
+    <li><strong>MacIver:</strong> "Equality is a leveling process by which the members of society are brought to the same plane of advantage."</li>
+    <li><strong>Barker:</strong> "Equality means absence of special privileges."</li>
+  </ul>
+
+  <h2>Types of Equality</h2>
+  <ul>
+    <li><strong>Political Equality:</strong> Equal right to vote, contest elections, and participate in public life.</li>
+    <li><strong>Social Equality:</strong> No discrimination based on caste, gender, religion, or race; equal social status.</li>
+    <li><strong>Economic Equality:</strong> Equal access to wealth, resources, and opportunities to reduce economic disparities.</li>
+    <li><strong>Legal Equality:</strong> Equal protection under the law and equal treatment by courts and officials.</li>
+    <li><strong>Civil Equality:</strong> Equal rights to civil liberties such as freedom of speech, religion, and movement.</li>
+  </ul>
+
+  <h2>Equality vs. Equity</h2>
+  <p>
+    While <strong>equality</strong> ensures that everyone is treated the same, <strong>equity</strong> recognizes differences 
+    and provides fair treatment according to individual needs. Equity is necessary to achieve true equality in outcomes.
+  </p>
+
+  <h2>Equality and Liberty</h2>
+  <p>
+    Equality and liberty are interconnected. Without equality, liberty becomes the privilege of the few. Without liberty, 
+    equality turns into enforced uniformity. A democratic society requires a balance between both.
+  </p>
+
+  <h2>Constitutional Provisions in India</h2>
+  <ul>
+    <li><strong>Article 14:</strong> Equality before the law and equal protection of the laws.</li>
+    <li><strong>Article 15:</strong> Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth.</li>
+    <li><strong>Article 16:</strong> Equality of opportunity in matters of public employment.</li>
+    <li><strong>Article 17:</strong> Abolition of untouchability.</li>
+    <li><strong>Article 18:</strong> Abolition of titles except military and academic distinctions.</li>
+  </ul>
+
+  <h2>Importance of Equality</h2>
+  <ul>
+    <li>Promotes social harmony and reduces conflict.</li>
+    <li>Ensures dignity, self-respect, and human rights for all.</li>
+    <li>Strengthens democracy by enabling equal participation.</li>
+    <li>Facilitates national integration and collective progress.</li>
+    <li>Corrects historical injustices and promotes fairness.</li>
+  </ul>
+
+  <h2>Challenges to Equality</h2>
+  <ul>
+    <li>Caste system and social hierarchies</li>
+    <li>Economic inequality and poverty</li>
+    <li>Gender discrimination and patriarchy</li>
+    <li>Regional and communal biases</li>
+    <li>Lack of access to quality education and healthcare</li>
+  </ul>
+
+  <h2>Measures to Promote Equality</h2>
+  <ul>
+    <li>Affirmative action and reservation policies</li>
+    <li>Universal education and skill development</li>
+    <li>Progressive taxation and welfare schemes</li>
+    <li>Legal reforms and anti-discrimination laws</li>
+    <li>Promotion of social awareness and tolerance</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    Equality is essential for justice, peace, and prosperity in any society. A democratic and inclusive nation ensures 
+    that all individuals, regardless of their background, have the same opportunities to grow and contribute. It is not 
+    merely an ideal but a goal that societies must strive to achieve through active policy and social change.
+  </p>
+<a href="index.html">Back To Home Page</a>
+</body>
+</html>

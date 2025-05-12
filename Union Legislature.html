@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Union Legislature: Rajya Sabha and Lok Sabha</h1>
+  <p>
+    The Union Legislature, also known as the *Parliament of India, is a bicameral body comprising the **Rajya Sabha (Council of States)* and the *Lok Sabha (House of the People). It is governed by **Part V of the Constitution (Articles 79–122)*.
+  </p>
+
+  <h2>Structure of the Indian Parliament</h2>
+  <ul>
+    <li><strong>Article 79:</strong> Parliament consists of the President, Rajya Sabha, and Lok Sabha.</li>
+    <li><strong>Article 80:</strong> Composition of Rajya Sabha.</li>
+    <li><strong>Article 81:</strong> Composition of Lok Sabha.</li>
+    <li><strong>Article 122:</strong> Courts cannot question proceedings of Parliament.</li>
+  </ul>
+
+  <h2>Rajya Sabha (Council of States)</h2>
+  <ul>
+    <li><strong>Total Strength:</strong> Maximum 250 members.</li>
+    <li><strong>Current Strength:</strong> Around 245 members.</li>
+    <li><strong>Tenure:</strong> Permanent body; one-third members retire every 2 years.</li>
+    <li><strong>Presiding Officer:</strong> Vice President of India (ex-officio Chairman).</li>
+  </ul>
+
+  <h3>Rajya Sabha Powers and Functions</h3>
+  <ul>
+    <li>Participates in the law-making process.</li>
+    <li>Can introduce and pass all bills except money bills.</li>
+    <li>Approves constitutional amendments.</li>
+    <li><strong>Article 249:</strong> Can authorize Parliament to make laws on State List subjects in national interest.</li>
+    <li><strong>Article 312:</strong> Can create All India Services.</li>
+  </ul>
+
+  <h2>Lok Sabha (House of the People)</h2>
+  <ul>
+    <li><strong>Total Strength:</strong> Maximum 552 members.</li>
+    <li><strong>Current Strength:</strong> 543 elected members.</li>
+    <li><strong>Tenure:</strong> 5 years unless dissolved earlier.</li>
+    <li><strong>Presiding Officer:</strong> Speaker of Lok Sabha.</li>
+  </ul>
+
+  <h3>Lok Sabha Powers and Functions</h3>
+  <ul>
+    <li>Primary law-making body; introduces and passes bills including money bills.</li>
+    <li><strong>Article 110:</strong> Defines money bills (can be introduced only in Lok Sabha).</li>
+    <li>Controls the executive through motions, questions, and discussions.</li>
+    <li>Votes on demands for grants and passes the Union Budget.</li>
+    <li><strong>Article 75(3):</strong> Council of Ministers is collectively responsible to Lok Sabha.</li>
+  </ul>
+
+  <h2>Role of the President in Parliament</h2>
+  <ul>
+    <li><strong>Article 86:</strong> Right to address and send messages to Parliament.</li>
+    <li><strong>Article 111:</strong> Assent to bills passed by Parliament.</li>
+    <li><strong>Article 123:</strong> Power to issue ordinances when Parliament is not in session.</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    The Union Legislature plays a vital role in the functioning of Indian democracy. While the Rajya Sabha represents the states and serves as a revising chamber, the Lok Sabha is directly elected by the people and holds greater power in financial and executive matters.
+  </p>
+
+</body>
+</html>

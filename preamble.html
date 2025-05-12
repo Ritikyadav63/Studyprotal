@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Preamble of the Indian Constitution</h1>
+
+  <h2>Text of the Preamble</h2>
+  <blockquote>
+    "We, the people of India, having solemnly resolved to constitute India into a<br>
+    SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC<br>
+    and to secure to all its citizens:<br><br>
+
+    JUSTICE, social, economic and political;<br>
+    LIBERTY of thought, expression, belief, faith and worship;<br>
+    EQUALITY of status and of opportunity;<br>
+    and to promote among them all<br>
+    FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation;<br><br>
+
+    IN OUR CONSTITUENT ASSEMBLY this 26th day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION."
+  </blockquote>
+
+  <h2>Key Elements of the Preamble</h2>
+
+  <h3>1. "We, the People of India"</h3>
+  <p>
+    This phrase indicates that the Constitution derives its authority from the people, emphasizing popular sovereignty and democratic values.
+  </p>
+
+  <h3>2. Sovereign</h3>
+  <p>
+    India is fully independent and has the authority to make its own laws and decisions without external control.
+  </p>
+
+  <h3>3. Socialist</h3>
+  <p>
+    Added by the 42nd Amendment (1976), this reflects India’s commitment to reducing inequality and ensuring a fair distribution of wealth and opportunities.
+  </p>
+
+  <h3>4. Secular</h3>
+  <p>
+    India has no official state religion. All religions are treated equally by the state. Citizens enjoy freedom of religion.
+  </p>
+
+  <h3>5. Democratic</h3>
+  <p>
+    India has a system of government where rulers are elected by the people through universal adult suffrage. The government is accountable to the people.
+  </p>
+
+  <h3>6. Republic</h3>
+  <p>
+    The head of the state (President) is elected and not a hereditary monarch. This ensures equality and rule of law.
+  </p>
+
+  <h2>Objectives of the Preamble</h2>
+  <ul>
+    <li><strong>Justice:</strong> Social, Economic, and Political.</li>
+    <li><strong>Liberty:</strong> Freedom of thought, belief, faith, and worship.</li>
+    <li><strong>Equality:</strong> Equal status and opportunity to all citizens.</li>
+    <li><strong>Fraternity:</strong> Promoting unity and dignity among all citizens.</li>
+  </ul>
+
+  <h2>Significance of the Preamble</h2>
+  <p>
+    The Preamble serves as the soul of the Constitution. It reflects the ideals and philosophy behind the Constitution. While not legally enforceable, it plays a vital role in guiding interpretation of constitutional provisions.
+  </p>
+
+  <h2>Amendability</h2>
+  <p>
+    The Preamble was amended only once by the 42nd Amendment in 1976, which added the words "Socialist", "Secular", and "Integrity".
+  </p>
+
+  <h2>Conclusion</h2>
+  <p>
+    The Preamble is a brief but powerful statement of values and vision. It encapsulates the essence of the Indian Constitution and guides its interpretation and implementation.
+  </p>
+
+</body>
+</html>

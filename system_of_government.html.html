@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>System of Government</h1>
+
+  <h2>I. Parliamentary System</h2>
+  <p>
+    India follows the *Parliamentary system* where the executive is responsible to the legislature and derives its authority from it.
+  </p>
+
+  <h3>Key Features:</h3>
+  <ul>
+    <li><strong>Collective Responsibility:</strong> Article 75(3) – The Council of Ministers is collectively responsible to the Lok Sabha.</li>
+    <li><strong>President as Nominal Head:</strong> Article 74 – There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President.</li>
+    <li><strong>Prime Minister as Real Executive:</strong> De facto authority lies with the PM and the cabinet.</li>
+    <li><strong>Vote of No Confidence:</strong> If the Lok Sabha passes a no-confidence motion, the government must resign.</li>
+  </ul>
+
+  <h3>Examples:</h3>
+  <p>India, United Kingdom, Japan</p>
+
+  <h2>II. Presidential System</h2>
+  <p>
+    In the *Presidential system*, the executive is independent of the legislature and holds fixed tenure.
+  </p>
+
+  <h3>Key Features:</h3>
+  <ul>
+    <li>President is both Head of State and Government.</li>
+    <li>Fixed term of office and separation of powers.</li>
+    <li>Not accountable to the legislature for day-to-day functioning.</li>
+  </ul>
+
+  <p><strong>Examples:</strong> United States, Brazil, Nigeria</p>
+
+  <h2>III. Unitary System</h2>
+  <p>
+    A *Unitary system* has a single center of power. The central government holds supreme authority, and local governments operate under its control.
+  </p>
+
+  <h3>Key Features:</h3>
+  <ul>
+    <li>No constitutional division of powers between center and units.</li>
+    <li>Local authorities are subordinate.</li>
+    <li>Uniform administration and laws.</li>
+  </ul>
+
+  <p><strong>Examples:</strong> United Kingdom, China, France</p>
+
+  <h2>IV. Federal System</h2>
+  <p>
+    A *Federal system* constitutionally divides power between the central and state governments. Both operate independently.
+  </p>
+
+  <h3>Federal Features in India:</h3>
+  <ul>
+    <li><strong>Dual Polity:</strong> Centre and States (Article 1 – India that is Bharat, a Union of States).</li>
+    <li><strong>Distribution of Powers:</strong> Article 246 – Three lists: Union, State, Concurrent (Seventh Schedule).</li>
+    <li><strong>Written Constitution:</strong> Provides clarity on power distribution.</li>
+    <li><strong>Supremacy of Constitution:</strong> All laws must conform to the Constitution.</li>
+    <li><strong>Independent Judiciary:</strong> Article 124 – Establishment of Supreme Court; role in federal disputes (Article 131).</li>
+  </ul>
+
+  <h3>Unitary Features in Indian Federalism:</h3>
+  <ul>
+    <li><strong>Strong Centre:</strong> More subjects in Union List, residuary powers with Centre (Article 248).</li>
+    <li><strong>Emergency Powers:</strong> Centre can take full control during emergency (Articles 352, 356).</li>
+    <li><strong>Single Constitution and Citizenship:</strong> Articles 5–11 (citizenship), single constitution for both Centre and States.</li>
+  </ul>
+
+  <p><strong>India is described as a “quasi-federal” state with a strong unitary bias.</strong></p>
+
+  <h2>Comparison Table</h2>
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>Feature</th>
+      <th>Parliamentary</th>
+      <th>Presidential</th>
+    </tr>
+    <tr>
+      <td>Executive Head</td>
+      <td>Prime Minister (Article 75)</td>
+      <td>President (elected separately)</td>
+    </tr>
+    <tr>
+      <td>Separation of Powers</td>
+      <td>Fused</td>
+      <td>Strict</td>
+    </tr>
+    <tr>
+      <td>Legislature Control</td>
+      <td>Yes – No Confidence (Article 75)</td>
+      <td>No direct control</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td>India, UK</td>
+      <td>USA</td>
+    </tr>
+  </table>
+
+  <h2>Conclusion</h2>
+  <p>
+    India has adopted a *Parliamentary form* and a *quasi-federal structure* with unitary features to ensure unity, efficient governance, and accommodation of diversity across states. Relevant constitutional provisions ensure a balanced framework.
+  </p>
+
+</body>
+</html>

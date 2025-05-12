@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004466;
+      padding: 10px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar.active .menu {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar" id="navbar">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+<a href="making of the constitution.html">Making Of The Constitution</a>
+   <a href="Salient Features of the Indian Constitution.html">Salient Features</a>
+    <a href="preamble.html">preamble Of Indian Constitution</a>
+    <a href="citizenship.html">Citizenship</a>
+    <a href="rights_dpsp_duties.html">FR, DPSP & Duties</a>
+    <a href="system_of_government.html.html">System of Government</a>
+    <a href="Union Executive.html">Union Executive</a>
+    <a href="State Executive.html"> State Executive</a>
+    <a href="Union Legislature.html">Union Legislature</a>
+    <a href="State Legislature.html">State Legislature</a>
+    <a href="Indian Judiciary System.html">Indian Judiciary System</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("active");
+    }
+  </script>
+  <hr>
+
+  <h1>Salient Features of the Indian Constitution</h1>
+
+  <h2>1. Lengthiest Written Constitution</h2>
+  <p>
+    The Indian Constitution is the longest written constitution in the world. It originally had 395 Articles, 22 Parts, and 8 Schedules. Today, it contains 470 Articles, 25 Parts, and 12 Schedules due to amendments.
+  </p>
+
+  <h2>2. Blend of Rigidity and Flexibility</h2>
+  <p>
+    The Constitution can be amended by a special majority (rigid) or a simple majority (flexible), depending on the nature of the amendment. This balance ensures both stability and adaptability.
+  </p>
+
+  <h2>3. Federal System with Unitary Bias</h2>
+  <p>
+    India has a quasi-federal system, where powers are divided between the Centre and the States. However, the Centre has overriding powers, especially during emergencies, making it unitary in nature.
+  </p>
+
+  <h2>4. Parliamentary Form of Government</h2>
+  <p>
+    The President is the constitutional head, while the Prime Minister and the Council of Ministers exercise real power. This system ensures collective responsibility and accountability to the Parliament.
+  </p>
+
+  <h2>5. Fundamental Rights</h2>
+  <p>
+    Part III of the Constitution guarantees six fundamental rights to all citizens, such as the Right to Equality, Right to Freedom, and Right to Constitutional Remedies, promoting liberty and justice.
+  </p>
+
+  <h2>6. Directive Principles of State Policy</h2>
+  <p>
+    Enshrined in Part IV, these are non-justiciable guidelines to promote social and economic democracy. Inspired by the Irish Constitution, they aim to build a welfare state.
+  </p>
+
+  <h2>7. Secular State</h2>
+  <p>
+    India is a secular state with no official religion. The State treats all religions equally and provides freedom of religion to all citizens under Article 25 to 28.
+  </p>
+
+  <h2>8. Single Citizenship</h2>
+  <p>
+    Unlike federal countries like the USA, India provides single citizenship to all its citizens, ensuring national unity and integrity.
+  </p>
+
+  <h2>9. Independent Judiciary</h2>
+  <p>
+    The judiciary is free from executive control. The Supreme Court and High Courts have the power of judicial review to protect citizens’ rights and uphold the Constitution.
+  </p>
+
+  <h2>10. Universal Adult Franchise</h2>
+  <p>
+    Every citizen of India who is 18 years or older has the right to vote, without discrimination based on caste, religion, or gender.
+  </p>
+
+  <h2>11. Emergency Provisions</h2>
+  <p>
+    The Constitution provides for National, State, and Financial Emergencies under Articles 352, 356, and 360, allowing the Centre to assume more powers in times of crisis.
+  </p>
+
+  <h2>12. Special Provisions for Minorities and Backward Classes</h2>
+  <p>
+    The Constitution provides reservations in education, employment, and legislatures to uplift socially and educationally backward groups and protect minorities.
+  </p>
+
+  <h2>Conclusion</h2>
+  <p>
+    The Indian Constitution is a unique document that reflects India's diversity, democratic ethos, and commitment to justice and equality. Its salient features make it dynamic and responsive to the nation's evolving needs.
+  </p>
+
+</body>
+</html>
